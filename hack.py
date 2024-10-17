@@ -16,6 +16,7 @@ active_indexs = []
 active_indexs2 = []
 
 def make_sprite_list():
+    #this fuction creates the sprite list which will be parsed latter
     sprite_list = os.listdir('Sprite')
     return sprite_list    
 def make_sprite(img_num, x=0,y=0,rev_scalex = 1,rev_scaley = 1):
